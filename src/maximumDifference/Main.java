@@ -13,7 +13,10 @@ public class Main {
 		}
 
 		// Step 1 - Brute Force	-> O(n^2)	
-		output(BruteForce.getMaximum(numbers));
+		output(BruteForce.getMaximum(numbers));		
+		
+		// Step 2 - Greedy -> O(n)
+		output(Greedy.getMaximum(numbers));
 	}
 	
 	public static void output(OutputInfo outputInfo){
