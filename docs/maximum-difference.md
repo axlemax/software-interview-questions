@@ -1,5 +1,6 @@
+
 ## Finding the Maximum Difference
----
+
 Given a set of numbers, find the maximum difference between two numbers where order matters (i.e. one must come _before_ the other).
 Examples are finding the highest temperature increase, or looking for the most profit on stock prices.
 
@@ -8,3 +9,7 @@ Examples are finding the highest temperature increase, or looking for the most p
      * Example: [12, 5, 7, 8, 11, 9]   --> maximum difference is between **5** and **11** (not 12 and 5)
   * **The lowest number will not necessarily be included.**
      * Example: [12, 5, 7, 8, 11, 4]   --> maximum difference is between **5** and **11** (not 12 and 4)
+
+### Some Edge Cases
+   * What if the values _stay the same_?
+   * What if the value _only decreases_?
