@@ -1,6 +1,7 @@
 package maximumDifference;
 
 import java.util.concurrent.ThreadLocalRandom;
+import utilities.*;
 
 public class Main {
 
@@ -13,23 +14,10 @@ public class Main {
 		}
 
 		// Step 1 - Brute Force	-> O(n^2)	
-		output(BruteForce.getMaximum(numbers));		
+		Output.printResults(BruteForce.getMaximum(numbers));		
 		
 		// Step 2 - Greedy -> O(n)
-		output(Greedy.getMaximum(numbers));
-	}
-	
-	public static void output(OutputInfo outputInfo){
-		System.out.println("Result reported by " + outputInfo.algorithmName +": " + outputInfo.result);
-		System.out.println(" " + outputInfo.algorithmName + " time: " + (outputInfo.endTime - outputInfo.startTime) / 1000.0 / 1000.0 + " ms");
-		System.out.println();
-	}
-	
-	public static class OutputInfo {
-		String algorithmName;
-		int result;
-		long startTime;
-		long endTime;
+		Output.printResults(Greedy.getMaximum(numbers));
 	}
 
 }

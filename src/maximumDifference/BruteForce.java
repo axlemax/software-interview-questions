@@ -1,6 +1,6 @@
 package maximumDifference;
 
-import maximumDifference.Main.OutputInfo;
+import utilities.*;
 
 public class BruteForce {
 
