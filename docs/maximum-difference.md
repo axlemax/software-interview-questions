@@ -22,7 +22,7 @@ The easiest way to find the maximum difference is to compare _every number_ to _
 To improve on that somewhat, we can make sure only to check each number with the numbers that come afterwards.
 
 The runtime for this is:  
-      n * (n - 1) * (n - 2) * (n -3) * ... * (n - (n - 1) ) * (n - n)  
+      n + (n - 1) + (n - 2) + (n -3) + ... + (n - (n - 1) ) + (n - n)  
 Which simplifies to:  
       O(n^2)
       
