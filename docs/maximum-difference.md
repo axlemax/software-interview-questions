@@ -33,7 +33,7 @@ for (int currentValue = 0; currentValue < numbers.length; currentValue++){
 				
 	// Compare to maximum found so far, update if larger
 	if ((numbers[compareValue] - numbers[currentValue]) > maximum)
-	 maximum = numbers[compareValue] - numbers[currentValue];
+		maximum = numbers[compareValue] - numbers[currentValue];
   }
 }
 ````
