@@ -39,7 +39,7 @@ for (int currentValue = 0; currentValue < numbers.length; currentValue++){
 ````
 ### Step 2 - Iterative and Greedy
 
-How about we use a greedy algorithm and try to find the maxmimum difference as we go? That sounds good, but how do we know _which value_ to compare each number to in order to get its difference? We should keee track of the _lowest number seen so far_ and compare it to every other number after that point.
+How about we use a greedy algorithm and try to find the maxmimum difference as we go? That sounds good, but how do we know _which value_ to compare each number to in order to get its difference? We should keep track of the _lowest number seen so far_ and compare it to every other number after that point.
 
 The runtime for this is:  
       O(n)   
