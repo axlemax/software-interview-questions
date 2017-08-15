@@ -24,7 +24,7 @@ To improve on that somewhat, we can make sure only to check each number with the
 The runtime for this is:  
       n + (n - 1) + (n - 2) + (n -3) + ... + (n - (n - 1) ) + (n - n)  
 Which simplifies to:  
-      O(n^2)
+      O(n<sup>2</sup>)
       
 Code:
 ````java
