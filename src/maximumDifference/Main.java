@@ -10,7 +10,7 @@ public class Main {
 		// Create a new array of random values
 		int[] numbers = new int[100000];
 		for (int i = 0 ; i < numbers.length; i++){
-			numbers[i] = ThreadLocalRandom.current().nextInt(-1000000, 1000000 + 1);
+			numbers[i] = ThreadLocalRandom.current().nextInt(0, 1000000 + 1);
 		}
 
 		// Step 1 - Brute Force	-> O(n^2)	
