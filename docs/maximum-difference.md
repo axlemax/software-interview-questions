@@ -14,6 +14,7 @@ Examples are finding the highest temperature increase, or looking for the most p
 ### Some Edge Cases
    * What if the values _stay the same_?
    * What if the value _only decreases_?
+   * What about _negative numbers_?
 
 ---
 ### Step 1 - Brute Force
