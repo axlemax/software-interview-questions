@@ -11,7 +11,7 @@ Examples are finding the highest temperature increase, or looking for the most p
   * **The lowest number will not necessarily be included.**
      * Example: [12, 5, 7, 8, 11, 4]   --> maximum difference is between **5** and **11** (not 12 and 4)
 
-### Some Edge Cases
+### Some Cases to Think About
    * What if the values _stay the same_?
    * What if the value _only decreases_?
    * What about _negative numbers_?
